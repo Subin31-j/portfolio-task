@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subin - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav aria-label="Main Navigation">
+            <h1 class="logo">Subin</h1>
+            <button class="menu-toggle" aria-label="Toggle-navigation">☰</button>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <img src="img\profile2u.jpg" alt="" class="profile">
+                <div class="hero-txt">
+                    <h2>Hi, I'm Subin</h2>
+                    <h3>Full-Stack Java Developer</h3>
+                </div>
+            </div>
+            <!-- <p>A passionate student specializing in full-stack web development. I build modern, scalable applications that solve real-world problems.</p> -->
+        </section>
+        <section id="about">
+            <h2>About me</h2>
+            <p>I'm currently pursuing Bachelor of Science in Artificial Intelligence and Machine Learning at Manonmaniam Sundaranar University (2024-2027). My passion lies in creating impactful web applications that bridge the gap between complex technology and user-friendly experiences. Through hands-on projects and continuous learning, I've developed a strong foundation in full-stack development, focusing on modern technologies and best practices. I believe in building solutions that not only work but also provide exceptional user experiences. Beyond coding, I enjoy exploring new technologies, problem-solving, and continuously improving my development workflow to create impactful digital experiences.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Java, Python, C++</li>
+                <li>HTML, CSS, Javascript</li>
+                <li>JDBC, PostgreSQL</li>
+                <li>React js, Tailwind CSS, Bootstrap, SpringBoot</li>
+            </ul>
+        </section>
+        <section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project-grid">
+    <article class="project-card">
+      <h3>Library Management System</h3>
+      <p>Java + JDBC based application to manage books and users.</p>
+      <span class="tech">Tech Stack: </span> <span>Java, JDBC, PostgreSQL</span>
+    </article>
+
+    <article class="project-card">
+      <h3>Kanban Board</h3>
+      <p>Task management web app with responsive UI.</p>
+      <span class="tech">Tech Stack: </span> <span>HTML, CSS, JS</span>
+    </article>
+  </div>
+</section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label>
+                    Name
+                    <input type="text" required>
+                </label>
+                <label>
+                    Email
+                    <input type="email" required>
+                </label>
+                <label>
+                    Message
+                    <textarea required></textarea>
+                </label>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 Subin. All rights reserved.</p>
+    </footer>
+    <script src="navigation.js"></script>
+</body>
+</html> 
